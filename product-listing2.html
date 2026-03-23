@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce-frontend-design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product-listing2.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="full_body">
+
+        <header>
+            <div class="logo"><img src="assets/Layout/Brand/logo-colored.png" alt="Logo"></div>
+            <div class="search_bar">
+                <input id="input" type="text" placeholder="Search">
+                <div class="dropdown">
+                    <div class="p">All category</div>
+                    <img src="assets/Layout/Form/input-group/Icon/control/Vector.png" alt="dropdown">
+                </div>
+                <div class="btn">Search</div>
+            </div>
+            <div class="menu_bar">
+                <div class="box">
+                    <img src="assets/icon/Profile.png" alt="profile">
+                    <p>Profile</p>
+                </div>
+                <div class="box">
+                    <img src="assets/icon/Message.png" alt="Message">
+                    <p>Message</p>
+                </div>
+                <div class="box">
+                    <img src="assets/icon/Orders.png" alt="Orders">
+                    <p>Orders</p>
+                </div>
+                <div class="box">
+                    <img src="assets/icon/My cart.png" alt="My cart">
+                    <p>My cart</p>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><img src="assets/icon/hamburger.png" alt="hamburger"> All category</li>
+                <li>Hot offers</li>
+                <li>Gift boxes</li>
+                <li>Projects</li>
+                <li>Menu item</li>
+                <li>Help <img src="assets/Layout/Form/input-group/Icon/control/Vector.png" alt="dropdown"></li>
+            </ul>
+            <div class="language">
+                <div class="box">English, USD <img src="assets/Layout/Form/input-group/Icon/control/Vector.png"
+                        alt="dropdown"></div>
+                <div class="box">Ship to <img src="assets/Layout1/Image/flags/DE@2x.png" alt="flag"> <img
+                        src="assets/Layout/Form/input-group/Icon/control/Vector.png" alt="dropdown"> </div>
+            </div>
+        </nav>
+         <div class="low_nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products-listing.html">Products-listing</a></li>
+                <li><a href="product-detail.html">Product-detail</a></li>
+                <li><a href="cart.html">My cart</a></li>
+            </ul>
+        </div>
+        <div class="tab">
+            <ul>
+                <li>Home</li>
+                <li>></li>
+                <li>Clothings</li>
+                <li>></li>
+                <li>Men’s wear</li>
+                <li>></li>
+                <li>Summer clothing</li>
+            </ul>
+        </div>
+
+        <main>
+            <aside>
+                <div class="sidebar">
+                    <div class="category">
+                        <h3>Category</h3>
+                        <img src="assets/Layout/Form/input-group/Icon/control/Vector2.png" alt="" class="dropdown">
+                    </div>
+                    <ul>
+                        <li>Mobile accessory</li>
+                        <li>Electronics</li>
+                        <li>Smartphones</li>
+                        <li>Modern tech</li>
+                        <li>See all</li>
+                    </ul>
+                </div>
+                <div class="sidebar sidebar2">
+                    <div class="category">
+                        <h3>Brands</h3>
+                        <img src="assets/Layout/Form/input-group/Icon/control/Vector2.png" alt="" class="dropdown">
+                    </div>
+                    <ul>
+                        <li><input type="checkbox" checked>Samsung</li>
+                        <li><input type="checkbox" checked>Apple</li>
+                        <li><input type="checkbox">Huawei</li>
+                        <li><input type="checkbox" checked>Pocco</li>
+                        <li><input type="checkbox">Lenovo</li>
+                        <li>See all</li>
+                    </ul>
+                </div>
+                <div class="sidebar sidebar2">
+                    <div class="category">
+                        <h3>Features</h3>
+                        <img src="assets/Layout/Form/input-group/Icon/control/Vector2.png" alt="" class="dropdown">
+                    </div>
+                    <ul>
+                        <li><input type="checkbox" checked>Metallic</li>
+                        <li><input type="checkbox">Plastic cover</li>
+                        <li><input type="checkbox">8GB Ram</li>
+                        <li><input type="checkbox">Super power</li>
+                        <li><input type="checkbox">Large Memory</li>
+                        <li>See all</li>
+                    </ul>
+                </div>
+                <div class="sidebar sidebar4">
+                    <div class="category">
+                        <h3>Price range</h3>
+                        <img src="assets/Layout/Form/input-group/Icon/control/Vector.png" alt="" class="dropdown">
+                    </div>
+                    <div class="range">
+                        <input type="range">
+                        <input type="text" placeholder="50" class="price">
+                    </div>
+                    <div class="apply">Apply</div>
+                </div>
+                <div class="sidebar sidebar2 sidebar5">
+                    <div class="category">
+                        <h3>Condition</h3>
+                        <img src="assets/Layout/Form/input-group/Icon/control/Vector2.png" alt="" class="dropdown">
+                    </div>
+                    <ul>
+                        <li><input name="brand" type="radio" checked>Any</li>
+                        <li><input name="brand" type="radio">Refurbished</li>
+                        <li><input name="brand" type="radio">Brand new</li>
+                        <li id="none_decoration"><input name="brand" type="radio">Old items</li>
+                    </ul>
+                </div>
+                <div class="sidebar sidebar6">
+                    <div class="category">
+                        <h3>Ratings</h3>
+                        <img src="assets/Layout/Form/input-group/Icon/control/Vector2.png" alt="" class="dropdown">
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="input"><input type="checkbox"></div>
+                            <div class="star"><img src="assets/icon/star (2).png" alt=""></div>
+                            <div class="star"><img src="assets/icon/star (2).png" alt=""></div>
+                            <div class="star"><img src="assets/icon/star (2).png" alt=""></div>
+                            <div class="star"><img src="assets/icon/star (2).png" alt=""></div>
+                            <div class="star"><img src="assets/icon/star (2).png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="input"><input type="checkbox"></div>
+                            <div class="star"><img src="assets/icon/star (2).png" alt=""></div>
+                            <div class="star"><img src="assets/icon/star (2).png" alt=""></div>
+                            <div class="star"><img src="assets/icon/star (2).png" alt=""></div>
+                            <div class="star"><img src="assets/icon/star (2).png" alt=""></div>
+                            <div class="star"><img src="assets/icon/star (1).png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="input"><input type="checkbox"></div>
+                            <div class="star"><img src="assets/icon/star (2).png" alt=""></div>
+                            <div class="star"><img src="assets/icon/star (2).png" alt=""></div>
+                            <div class="star"><img src="assets/icon/star (2).png" alt=""></div>
+                            <div class="star"><img src="assets/icon/star (1).png" alt=""></div>
+                            <div class="star"><img src="assets/icon/star (1).png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="input"><input type="checkbox"></div>
+                            <div class="star"><img src="assets/icon/star (2).png" alt=""></div>
+                            <div class="star"><img src="assets/icon/star (2).png" alt=""></div>
+                            <div class="star"><img src="assets/icon/star (1).png" alt=""></div>
+                            <div class="star"><img src="assets/icon/star (1).png" alt=""></div>
+                            <div class="star"><img src="assets/icon/star (1).png" alt=""></div>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="right_side">
+                <div class="total_items">
+                    <div class="no_of_items">
+                        <p>12,911 items in</p>
+                        <p>Mobile accessory</p>
+                    </div>
+                    <div class="tiles">
+                        <div class="verified">
+                            <input type="checkbox">
+                            <p>Verified only</p>
+                        </div>
+                        <div class="featured">
+                            <p>Featured</p>
+                            <img src="assets/Layout/Form/input-group/Icon/control/Vector.png" alt="">
+                        </div>
+                        <div class="grid_tile">
+                            <div class="grid"><img src="assets/icon/grid.png" alt=""></div>
+                            <a href="products-listing.html"><div class="tile"><img src="assets/icon/tile.png" alt=""></div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="checked_bar">
+                    <div class="checked_tab">
+                        <p>Samsung</p>
+                        <img src="assets/icon/close.png" alt="">
+                    </div>
+                    <div class="checked_tab">
+                        <p>Apple</p>
+                        <img src="assets/icon/close.png" alt="">
+                    </div>
+                    <div class="checked_tab">
+                        <p>Poco</p>
+                        <img src="assets/icon/close.png" alt="">
+                    </div>
+                    <div class="checked_tab">
+                        <p>Metallic</p>
+                        <img src="assets/icon/close.png" alt="">
+                    </div>
+                    <div class="checked_tab">
+                        <p>4 star</p>
+                        <img src="assets/icon/close.png" alt="">
+                    </div>
+                    <div class="checked_tab">
+                        <p>3 star</p>
+                        <img src="assets/icon/close.png" alt="">
+                    </div>
+                    <p class="clear_filter">Clear all filter</p>
+                </div>
+                <div class="all_lists">
+                    <div class="product_list">
+                        <img src="assets/Image/tech/image 33.svg" alt="">
+                        <div class="description_box">
+                            <div class="description">
+                                <div class="price">
+                                    <p>$99.50</p>
+                                    <p>$1128.00</p>
+                                </div>
+                                <div class="reveiws">
+                                    <ul>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (1).png" alt=""></li>
+                                        <p>7.5</p>
+                                    </ul>
+                                </div>
+                                <p class="lorem">GoPro HERO6 4K Action Camera - Black</p>
+                            </div>
+                            <div class="heart"><img src="assets/icon/heart.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="product_list">
+                        <img src="assets/Image/tech/image 22.svg" alt="">
+                        <div class="description_box">
+                            <div class="description">
+                                <div class="price">
+                                    <p>$99.50</p>
+                                    <p>$1128.00</p>
+                                </div>
+                                <div class="reveiws">
+                                    <ul>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (1).png" alt=""></li>
+                                        <li><img src="assets/icon/star (1).png" alt=""></li>
+                                        <p>5.9</p>
+                                    </ul>
+                                </div>
+                                <p class="lorem">GoPro HERO6 4K Action Camera - Black</p>
+                            </div>
+                            <div class="heart"><img src="assets/icon/heart.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="product_list">
+                        <img src="assets/Image/tech/image 23.svg" alt="">
+                        <div class="description_box">
+                            <div class="description">
+                                <div class="price">
+                                    <p>$99.50</p>
+                                    <p></p>
+                                </div>
+                                <div class="reveiws">
+                                    <ul>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (1).png" alt=""></li>
+                                        <p>7.5</p>
+                                    </ul>
+                                </div>
+                                <p class="lorem">GoPro HERO6 4K Action Camera - Black</p>
+                            </div>
+                            <div class="heart"><img src="assets/icon/heart.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="product_list">
+                        <img src="assets/Image/tech/image 32.svg" alt="">
+                        <div class="description_box">
+                            <div class="description">
+                                <div class="price">
+                                    <p>$99.50</p>
+                                    <p>$1128.00</p>
+                                </div>
+                                <div class="reveiws">
+                                    <ul>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (1).png" alt=""></li>
+                                        <p>7.5</p>
+                                    </ul>
+                                </div>
+                                <p class="lorem">GoPro HERO6 4K Action Camera - Black</p>
+                            </div>
+                            <div class="heart"><img src="assets/icon/heart.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="product_list">
+                        <img src="assets/Image/tech/image 28.svg" alt="">
+                        <div class="description_box">
+                            <div class="description">
+                                <div class="price">
+                                    <p>$99.50</p>
+                                    <p>$1128.00</p>
+                                </div>
+                                <div class="reveiws">
+                                    <ul>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (1).png" alt=""></li>
+                                        <p>7.5</p>
+                                    </ul>
+                                </div>
+                                <p class="lorem">GoPro HERO6 4K Action Camera - Black</p>
+                            </div>
+                            <div class="heart"><img src="assets/icon/heart.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="product_list">
+                        <img src="assets/Image/tech/image 22.svg" alt="">
+                        <div class="description_box">
+                            <div class="description">
+                                <div class="price">
+                                    <p>$99.50</p>
+                                    <p></p>
+                                </div>
+                                <div class="reveiws">
+                                    <ul>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (1).png" alt=""></li>
+                                        <p>7.5</p>
+                                    </ul>
+                                </div>
+                                <p class="lorem">GoPro HERO6 4K Action Camera - Black</p>
+                            </div>
+                            <div class="heart"><img src="assets/icon/heart.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="product_list">
+                        <img src="assets/Image/tech/image 34.svg" alt="">
+                        <div class="description_box">
+                            <div class="description">
+                                <div class="price">
+                                    <p>$99.50</p>
+                                    <p>$1128.00</p>
+                                </div>
+                                <div class="reveiws">
+                                    <ul>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (1).png" alt=""></li>
+                                        <p>7.5</p>
+                                    </ul>
+                                </div>
+                                <p class="lorem">GoPro HERO6 4K Action Camera - Black</p>
+                            </div>
+                            <div class="heart"><img src="assets/icon/heart.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="product_list">
+                        <img src="assets/Image/tech/image 35.svg" alt="">
+                        <div class="description_box">
+                            <div class="description">
+                                <div class="price">
+                                    <p>$99.50</p>
+                                    <p>$1128.00</p>
+                                </div>
+                                <div class="reveiws">
+                                    <ul>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (1).png" alt=""></li>
+                                        <p>7.5</p>
+                                    </ul>
+                                </div>
+                                <p class="lorem">GoPro HERO6 4K Action Camera - Black</p>
+                            </div>
+                            <div class="heart"><img src="assets/icon/heart.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="product_list">
+                        <img src="assets/Image/tech/image 33.svg" alt="">
+                        <div class="description_box">
+                            <div class="description">
+                                <div class="price">
+                                    <p>$998.00</p>
+                                    <p></p>
+                                </div>
+                                <div class="reveiws">
+                                    <ul>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (2).png" alt=""></li>
+                                        <li><img src="assets/icon/star (1).png" alt=""></li>
+                                        <p>7.5</p>
+                                    </ul>
+                                </div>
+                                <p class="lorem">GoPro HERO6 4K Action Camera - Black</p>
+                            </div>
+                            <div class="heart"><img src="assets/icon/heart.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="paginations">
+                    <div class="show">
+                        <p>Show 10</p>
+                        <img src="assets/Layout/Form/input-group/Icon/control/Vector.png" alt="">
+                    </div>
+                    <div class="pagination">
+                        <div class="grid"><</div>
+                        <div class="grid modify_color">1</div>
+                        <div class="grid">2</div>
+                        <div class="grid">3</div>
+                        <div class="grid">></div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    </main>
+
+    <footer>
+        <div class="section-1">
+            <h3>Subscribe on our newsletter</h3>
+            <p>Get daily news on upcoming offers from many suppliers all over the world</p>
+            <div class="email_box">
+                <img src="assets/icon/email.png" alt="email">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <div class="section-2">
+            <div class="box1">
+                <img src="assets/Layout/Brand/logo-colored.png" alt="logo">
+                <p>Best information about the company gies here but now lorem ipsum is</p>
+                <div class="social_icon">
+                    <img src="assets/icon/facebook3.png" alt="facebook">
+                    <img src="assets/icon/twitter3.png" alt="twitter">
+                    <img src="assets/icon/linkedin3.png" alt="linkedin">
+                    <img src="assets/icon/instagram3.png" alt="instagram">
+                    <img src="assets/icon/youtube3.png" alt="youtuber">
+                </div>
+            </div>
+            <div class="box2">
+                <ul>
+                    <li>About</li>
+                    <li>About Us</li>
+                    <li>Find store</li>
+                    <li>Sidebar</li>
+                    <li>Blogs</li>
+                </ul>
+                <ul>
+                    <li>Partnership</li>
+                    <li>About Us</li>
+                    <li>Find store</li>
+                    <li>Sidebar</li>
+                    <li>Blogs</li>
+                </ul>
+                <ul>
+                    <li>Information</li>
+                    <li>Help Center</li>
+                    <li>Money Refund</li>
+                    <li>Shipping</li>
+                    <li>Contact us</li>
+                </ul>
+                <ul>
+                    <li>For users</li>
+                    <li>Login</li>
+                    <li>Register</li>
+                    <li>Settings</li>
+                    <li>My Orders</li>
+                </ul>
+                <ul>
+                    <li>Get app</li>
+                    <li class="btn"><img src="assets/Layout/Misc/market-button.png" alt="button"></li>
+                    <li class="btn"><img src="assets/Layout/Misc/Group.png" alt="button"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section-3">
+            <p class="copyright">&copy; 2023 Ecommerce.</p>
+            <div class="language">
+                <img src="assets/Layout1/Image/flags/US@2x.png" alt="Language" class="flag"> English
+                <img src="assets/Layout/Form/input-group/Icon/control/Vector2.png" alt="dropdown">
+            </div>
+        </div>
+    </footer>
+
+    </div>
+</body>
+
+</html>
